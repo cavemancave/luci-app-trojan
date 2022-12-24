@@ -64,6 +64,6 @@ jobs:
     - name: Upload
       uses: actions/upload-artifact@v3
       with:
-        name: {{ format('{0}.{1}.{2}', github.workflow, github.actor, github.event_name) }}
+        name: artifact
         path: ../bin
 
